@@ -10,4 +10,4 @@ From: ubuntu:18.04
     mv frictionless.exe /usr/local/bin/frictionless.exe
 
 %runscript
-    frictionless.exe
+    frictionless.exe "$@"
